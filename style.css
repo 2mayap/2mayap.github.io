@@ -35,7 +35,7 @@ h1{
 #about-text {
     display: flex;  /* Make the text container a flexbox container */
     flex-direction: column; /* Stack the content vertically */
-    gap: 10px; /* Add space between the text items */
+    gap: 10px; 
 }
 
 #about-text h2,
