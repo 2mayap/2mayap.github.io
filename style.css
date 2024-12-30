@@ -141,17 +141,20 @@ ul{
     flex-wrap: wrap;
     gap: 20px;
     padding-top: 130px;
+    padding-bottom: 40px;
     margin-right: 10%;
     margin-left: 10%;
 }
 
 /*Style for header2 in about secion*/
-.about h2{
-    /* text-align: center; */
-    text-align:left;
+h2{
     font-family: "Abril Fatface", serif;
     color: #3e6641;
     font-size: 3em;
+}
+.about h2{
+    /* text-align: center; */
+    text-align:left;
     margin-bottom: 10px;
 }
 
@@ -186,7 +189,7 @@ ul{
     margin: 0;
 }
 
-.about h3{
+h3{
     /* text-align: center; */
     text-align:left;
     font-family: "Abril Fatface", serif;
@@ -222,4 +225,47 @@ ul{
     display:flex;
     justify-content:flex-start;
     gap: 20px;
+}
+
+
+/*Style for About page*/
+.page-title{
+    padding-top: 130px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.info-columns{
+    margin-right: 10%;
+    margin-left: 10%;
+    display:flex;
+    flex-wrap:wrap;
+    
+    gap: 20px;
+}
+
+
+.info-box {
+    /* flex: 1 1 45%; */
+    flex:auto;
+    min-width:250px;
+    max-width:48%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #cccc;
+    border-style:ridge;
+    box-sizing: border-box;
+}
+@media(max-width: 768px){
+    .info-box {
+        /* flex: 1 1 45%; */
+        flex:auto;
+        min-width:250px;
+        max-width:none;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border: 1px solid #cccc;
+        border-style:ridge;
+        box-sizing: border-box;
+    }
 }
