@@ -268,4 +268,12 @@ h3{
 
         box-sizing: border-box;
     }
+    .info-box h3{
+        text-align:center;
+    }
+}
+
+.contact-methods ul{
+    list-style: none;
+    text-align: center;
 }
