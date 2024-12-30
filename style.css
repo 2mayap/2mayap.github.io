@@ -23,7 +23,7 @@ header li, a{
     color: #f5efdc;
     text-decoration: none;
 }
-li{
+.navbar li{
     list-style: none;
 }
 
@@ -72,7 +72,7 @@ li{
     .hamburger.active .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
-    .hamburger.active .bar:nth-child(1){
+    .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
 
@@ -98,17 +98,6 @@ li{
 }
 
 
-
-/* .nav_links li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
-.nav_links li a:hover{
-    color: #5e9d62;
-} */
 button{
     padding: 9px 25px;
     color:#3e6641;
