@@ -39,6 +39,7 @@ header li, a{
 }
 
 .nav-link:hover{
+    transition: all 0.3s ease 0s;
     color: #7e8f64;
 }
 
@@ -135,7 +136,7 @@ ul{
 .about {
     display: flex;  
     /* align-items: flex-start; */
-    align-items: center;
+    /* align-items: center; */
     flex-direction:column;
     flex-wrap: wrap;
     gap: 20px;
@@ -146,7 +147,8 @@ ul{
 
 /*Style for header2 in about secion*/
 .about h2{
-    text-align: center;
+    /* text-align: center; */
+    text-align:left;
     font-family: "Abril Fatface", serif;
     color: #3e6641;
     font-size: 3em;
@@ -182,4 +184,42 @@ ul{
 #about-text p,
 #about-text ul {
     margin: 0;
+}
+
+.about h3{
+    /* text-align: center; */
+    text-align:left;
+    font-family: "Abril Fatface", serif;
+    color: #3e6641;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* #quick-links{
+    display:flex;
+    flex-direction:;
+    align-items: end;
+} */
+#quick-links-container{
+    display:flex;
+    flex-direction:column;
+}
+#quick-links-container a{
+    color:#3e6641;
+    text-decoration:underline dashed;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out 0s;
+}
+#quick-links-container a:hover{
+    font-weight: bold;
+}
+
+.quick-links li{
+    list-style:none;
+}
+
+.quick-links{
+    display:flex;
+    justify-content:flex-start;
+    gap: 20px;
 }
