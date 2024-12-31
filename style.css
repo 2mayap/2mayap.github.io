@@ -288,3 +288,13 @@ h3{
     color:#3e6641;
     text-decoration:underline dashed;
 }
+
+
+.resume-holder {
+    padding: 20px;
+}
+
+.resume-holder iframe {
+    width: 100%;
+    height: 600px;   
+}
