@@ -283,3 +283,8 @@ h3{
     list-style: none;
     text-align: center;
 }
+
+.info-box a{
+    color:#3e6641;
+    text-decoration:underline dashed;
+}
