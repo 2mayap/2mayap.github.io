@@ -238,8 +238,8 @@ h3{
 .info-box {
     /* flex: 1 1 45%; */
     flex:auto;
-    min-width:250px;
-    max-width:48%;
+    /* min-width:250px;
+    max-width:48%; */
 
     padding: 20px;
 
