@@ -1,6 +1,6 @@
 /* Green color code: #3e6641;*/
-/* Dark blue color code: 0b0030*/
-/* Light purple color code: #e4dcf5 */
+/* Dark blue color code: #12092f*/
+/* Light purple color code: #9d8cc1 */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
@@ -10,7 +10,7 @@
     box-sizing:border-box;
 }
 header {
-    background-color: #0b0030;
+    background-color: #12092f;
     position:fixed;
     width: 100%;
 }
@@ -18,7 +18,7 @@ header li, a{
     font-family: "Source Sans 3", serif;
     font-weight: 500;
     font-size: 16px;
-    color: #e4dcf5;
+    color: #baaed2;
     text-decoration: none;
 }
 .navbar li{
@@ -42,7 +42,7 @@ header li, a{
 
 .nav-link:hover{
     transition: all 0.3s ease 0s;
-    color: #b8da85;
+    color: #baaed2;
 }
 
 .hamburger{
@@ -97,41 +97,22 @@ header li, a{
 }
 
 
-button{
-    padding: 9px 25px;
-    color:#3e6641;
-    background-color: rgba(245,239,220,1); /*we use rgba because we are dealing with opactiy changes with the button*/
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-
-}
-button:hover{
-    background-color: #e4dcf5;
-}
-
-
-
-
-
-
-
 body{
-    background-color: #0b0030;;
+    background-color: #12092f;
 }
-
+/* 
 h1{
     text-align: center;
     font-family: "Abril Fatface", serif;
-    color: #e4dcf5;
+    color: #a62211;
     font-size: 5em;
-}
+} */
+
 h4{
     font-family: "Source Sans 3", serif;
     font-weight: bold;
-    font-size: 1.2em;
-    color: #e4dcf5;
+    font-size: 1.5em;
+    color: #baaed2;
 }
 p {
     font-family: "Source Sans 3", serif;
@@ -157,7 +138,7 @@ ul{
 /*Style for header2 in about secion*/
 h2{
     font-family: "Abril Fatface", serif;
-    color: #e4dcf5;
+    color: #baaed2;
     font-size: 3em;
 }
 .about h2{
@@ -167,12 +148,12 @@ h2{
 }
 
 .about p{
-    color: #e4dcf5;
+    color: #9d8cc1;
     font-weight: 500;
 }
 
 .about ul{
-    color: #e4dcf5;
+    color: #9d8cc1;
     font-weight: 500;
 }
 
@@ -197,11 +178,12 @@ h2{
     margin: 0;
 }
 
+/* e.g., for quick links header */
 h3{
     /* text-align: center; */
     text-align:left;
     font-family: "Abril Fatface", serif;
-    color: #e4dcf5;
+    color: #baaed2;
     font-size: 1.5em;
     margin-bottom: 10px;
 }
@@ -216,7 +198,7 @@ h3{
     flex-direction:column;
 }
 #quick-links-container a{
-    color:#2069c4;
+    color:#9d8cc1;
     text-decoration:underline dashed;
     transform: scale(1);
     transition: all 0.3s ease-in-out 0s;
