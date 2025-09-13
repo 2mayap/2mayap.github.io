@@ -57,7 +57,7 @@ header li, a{
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #f5efdc;
+    background-color: #baaed2;
 }
 
 @media(max-width: 768px){
@@ -81,7 +81,7 @@ header li, a{
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #ff0000;
+        background-color: #806ea7; 
         width: 100%;
         text-align:center;
         transition: 0.3s;
@@ -269,6 +269,6 @@ h3{
 }
 
 .info-box a{
-    color:#3e6641;
+    color:#baaed2;
     text-decoration:underline dashed;
 }
