@@ -135,6 +135,10 @@ ul{
     margin-left: 10%;
 }
 
+.about li{
+    margin-left: 20px;
+}
+
 /*Style for header2 in about secion*/
 h2{
     font-family: "Abril Fatface", serif;
@@ -230,8 +234,12 @@ h3{
     margin-left: 10%;
     display:flex;
     flex-wrap:wrap;
-    
     gap: 20px;
+}
+
+.info-columns ul{
+    color: #9d8cc1;
+    font-weight: 500;
 }
 
 
@@ -258,9 +266,9 @@ h3{
 
         box-sizing: border-box;
     }
-    .info-box h3{
+    /* .info-box h3{
         text-align:center;
-    }
+    } */
 }
 
 .contact-methods ul{
